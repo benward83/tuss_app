@@ -22,7 +22,14 @@ export default {
     layout() {
       return (this.$route.meta.layout || 'layoutRest');
     }
-  }
+  },
+  watch: {
+   
+  },
+  methods: {
+
+  },
+  
 };
 </script>
 
