@@ -4,11 +4,13 @@
       id="mainNavbar"
       class="navbar navbar-dark navbar-expand-md py-0 fixed-top"
     >
-      <a
+      <router-link
         href="#"
         class="navbar-brand"
         to="/"
-      >SAYTUSS</a>
+      >
+        SAYTUSS
+      </router-link>
       <button
         class="navbar-toggler"
         data-toggle="collapse"
@@ -23,29 +25,36 @@
       >
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a
-              href
+            <router-link
               class="nav-link"
-            >ABOUT</a>
+              to="/about"
+            >
+              ABOUT
+            </router-link>
           </li>
           <li class="nav-item">
-            <a
-              href
+            <router-link
               class="nav-link"
               to="/gallery"
-            >GALLERY</a>
+            >
+              GALLERY
+            </router-link>
           </li>
           <li class="nav-item">
-            <a
-              href
+            <router-link
               class="nav-link"
-            >SHOP</a>
+              to="/shop"
+            >
+              SHOP
+            </router-link>
           </li>
           <li class="nav-item">
-            <a
-              href
+            <router-link
               class="nav-link"
-            >CONTACT</a>
+              to="/contact"
+            >
+              CONTACT
+            </router-link>
           </li>
         </ul>
       </div>
@@ -53,7 +62,29 @@
   </div>
 </template>
 
-<style>
+<style lang='scss'>
+
+#mainNavbar {
+	font-size: 1.5rem;
+	font-weight: 100;
+}
+
+#mainNavbar .nav-link {
+	color: white;
+}
+
+#mainNavbar .nav-link:hover {
+	color: #891206;
+}
+
+#mainNavbar .navbar-brand {
+	color: #ea1c2c;
+}
+
+.navbar.scrolled {
+    background-color: black;
+    transition: background 1s;
+}
 </style>
 
 <script>

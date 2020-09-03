@@ -3,7 +3,6 @@
     id="home"
     class="container"
   >
-    <Navbar />
     <div class="row flex">
       <div class="col-lg-12">
         <div id="content">
@@ -15,6 +14,7 @@
             id="buttonHover"
             type="button"
             class="btn btn-outline-secondary fas fa-spray-can"
+            to="/gallery"
           >
             CHECK THE ART
           </button>
@@ -25,19 +25,12 @@
 </template>
 
 <script>
-import Navbar from '@/components/Navbar.vue';
-
 export default {
   components: {
-    Navbar,
   },
 };
 </script>
 
 <style>
-body {
-  background-size: cover;
-  background-position: center;
-  background: url("../assets/background.jpg");
-}
+
 </style>

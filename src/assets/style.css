@@ -1,38 +1,10 @@
 /* Navbar */
 
-#mainNavbar {
-	font-size: 1.5rem;
-	font-weight: 100;
-}
-
-#mainNavbar .nav-link {
-	color: white;
-}
-
-#mainNavbar .nav-link:hover {
-	color: #891206;
-}
-
-#mainNavbar .navbar-brand {
-	color: #ea1c2c;
-}
 
 /* ///////////////////////////////////// */
 
 /* Heading */
 
-#headingGroup span {
-	color: #ea1c2c;
-}
-
-#headingGroup h1 {
-	font-weight: 100;
-	font-size: 4rems;
-}
-
-#buttonHover:hover {
-	color: #891206;
-}
 
 /* //////////////////////////// */
 
@@ -41,9 +13,9 @@
 body {
 	color: #dedede;
 	font-family: 'Baloo Paaji 2', cursive;
-	background-size: cover;
-	background-position: center;
-	/* background-image: url('/assets/art/Images/Tuss_header.jpg'); */
+	/* background-size: cover;
+	background-position: center; */
+     /* background-image:  url(' ../assets/background.jpg') */
 }
 
 html {
@@ -78,31 +50,10 @@ h1 {
     font-family: 'Baloo Paaji 2', cursive;
 }
 
-.jumbotron {
-    background-color: #A9887A;
-}
-
-#jumboFont {
-   color: whitesmoke;
-}
-
-#jumboHeaderImg {
-    /* background-image: url('src/assets/background.jpg'); */
-    background-size: 100%;
-    background-position: 10%;
-
-  } 
-
-  #pFont {
-      color: whitesmoke;
-  }
 
 
 
-.navbar.scrolled {
-    background-color: black;
-    transition: background 1s;
-}
+
 
 @media (max-width: 1200px) {
     #headingGroup h1 {
@@ -117,28 +68,9 @@ h1 {
 }
 
 
-#etsyColor {
-    color: whitesmoke;
-}
 
-#instaColor {
-    color: whitesmoke;
-}
 
 section {
     margin: auto;
 }
 
-.container-fluid {
-    width: 100%;
-    margin: 0 0 20px;
-    padding: 10px;
-    overflow: hidden;
-    break-inside: avoid;
-}
-
-img {
-    padding: 1px;
-    border: 5px solid whitesmoke ;
-    background-color: rgb(175, 0, 0);
-}

@@ -10,13 +10,21 @@
 
 <script>
 
+import { layoutHome, layoutRest } from '@/layouts';
+
 export default {
   components: {
+    layoutHome,
+    layoutRest
   },
   computed: {
     layout() {
-      return (this.$route.meta.layout || 'default') + '-layout';
+      return (this.$route.meta.layout || 'layoutRest');
     }
   }
 };
 </script>
+
+<style>
+
+</style>
