@@ -46,7 +46,7 @@ const routes = [
     name: 'Contact',
     component: Contact,
     meta: {
-      layout: 'layoutRest'
+      layout: 'layoutContact'
     }
   },
   

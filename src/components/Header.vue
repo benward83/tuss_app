@@ -9,7 +9,7 @@
         <span
           class="fas fa-spray-can"
           aria-hidden="true"
-        /> Gallery
+        /> 
       </h1>
       <ul class="nav justify-content-end">
         <li
@@ -33,9 +33,7 @@
           />
         </li>
       </ul>
-      <p id="pFont">
-        Some examples of my work below. Check out the Insta and Etsy links for more!
-      </p>
+      <p id="pFont" />
     </div>
   </div>
 </template>

@@ -10,12 +10,13 @@
 
 <script>
 
-import { layoutHome, layoutRest } from '@/layouts';
+import { layoutHome, layoutRest, layoutContact } from '@/layouts';
 
 export default {
   components: {
     layoutHome,
-    layoutRest
+    layoutRest,
+    layoutContact
   },
   computed: {
     layout() {
