@@ -22,7 +22,7 @@ const routes = [
     name: 'About',
     component: About,
     meta: {
-      layout: 'layoutHome'
+      layout: 'layoutRest'
     }
   },
   {

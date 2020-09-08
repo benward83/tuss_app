@@ -14,7 +14,7 @@
             id="buttonHover"
             type="button"
             class="btn btn-outline-secondary fas fa-spray-can"
-            to="/gallery"
+            @click="goToGallery"
           >
             CHECK THE ART
           </button>
@@ -28,9 +28,19 @@
 export default {
   components: {
   },
+  methods: {
+    goToGallery() {
+      this.$router.push('Gallery');
+    } 
+  },
 };
 </script>
 
-<style>
-
+<style  lang="scss">
+body {
+  background-image: url('../assets/background.jpg');
+  background-size: cover;
+  background-position: relative;
+}
 </style>
+
