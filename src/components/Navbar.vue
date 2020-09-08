@@ -85,6 +85,12 @@
     background-color: black;
     transition: background 1s;
 }
+
+#iconHover:hover {
+    opacity: 0.5;
+    color: #891206;
+}
+
 </style>
 
 <script>
