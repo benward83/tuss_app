@@ -3,14 +3,6 @@
 
 /* Body */
 
-body {
-	color: #dedede;
-	font-family: 'Baloo Paaji 2', cursive;
-	background-size: cover;
-	/* background-position: relative;
-	z-index: 9999; 
-  background-image:  url(' ../assets/background.jpg') */
-}
 
 html {
 	height: 100%;

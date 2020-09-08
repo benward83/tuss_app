@@ -1,6 +1,7 @@
 <template>
   <div
-    id="home"
+    :style="cssProps"
+  
     class="container"
   >
     <div class="row flex">
@@ -25,8 +26,16 @@
 </template>
 
 <script>
+
 export default {
   components: {
+  },
+  data() {
+    return {
+      cssProps: {
+        backgroundImage: `url(${require('@/assets/background.jpg')})`,
+      }
+    };
   },
   methods: {
     goToGallery() {
@@ -35,12 +44,4 @@ export default {
   },
 };
 </script>
-
-<style  lang="scss">
-body {
-  background-image: url('../assets/background.jpg');
-  background-size: cover;
-  background-position: relative;
-}
-</style>
 
