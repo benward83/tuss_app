@@ -9,7 +9,7 @@
         <div id="content">
           <h1>SayTuss</h1>
           <h3>Home Page</h3>
-          <p>Saytuss is a Barcelona based Mancunian artist who refers to himself in the third person. He veers towards thick lines and bold colours inspired by japonism, post Impressionism, protest art, jazz covers and artists he finds on Instagram.</p>
+          <p>SayTuss is a Barcelona based Mancunian artist who refers to himself in the third person. He veers towards thick lines and bold colours inspired by japonism, post Impressionism, protest art, jazz covers and artists he finds on Instagram.</p>
           <hr>
           <button
             id="buttonHover"
@@ -45,3 +45,13 @@ export default {
 };
 </script>
 
+<style lang="scss">
+
+body {
+	color: #dedede;
+  font-family: 'Baloo Paaji 2', cursive;
+  // background-image: url('@/assets/background.jpg');
+  background-position: 10%;
+	background-size: 100%;
+}
+</style>

@@ -86,5 +86,8 @@ export default {
 </script>
 
 <style>
-
+.img-fluid {
+    
+    object-fit: cover;
+}
 </style>

@@ -17,9 +17,4 @@ export default {
 
 <style lang="scss">
 
-body {
-	color: #dedede;
-	font-family: 'Baloo Paaji 2', cursive;
-	background-size: cover;
-}
 </style>

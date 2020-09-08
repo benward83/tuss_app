@@ -3,6 +3,7 @@
     <nav
       id="mainNavbar"
       class="navbar navbar-dark navbar-expand-md py-0 fixed-top"
+      :class="{change_color: scrollPosition > 50}"
     >
       <router-link
         href="#"
@@ -81,7 +82,7 @@
 	color: #ea1c2c;
 }
 
-.navbar.scrolled {
+.change_color {
     background-color: black;
     transition: background 1s;
 }
@@ -94,5 +95,20 @@
 </style>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      scrollPosition: null,
+
+    };
+  },
+  mounted() {
+    window.addEventListener('scroll', this.updateScroll);
+  },
+  methods: {
+    updateScroll() {
+      this.scrollPosition = window.scrollY;
+    },
+  }
+};
 </script>
