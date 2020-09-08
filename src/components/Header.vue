@@ -17,7 +17,7 @@
         >
           <a
             id="instaColor"
-            class="nav-link fab fa-instagram"
+            class="nav-link fab fa-instagram icon-large"
             href="https://www.instagram.com/saytuss/?hl=en"
           />
         </li>
@@ -27,7 +27,7 @@
         >
           <a
             id="etsyColor"
-            class="nav-link fab fa-etsy"
+            class="nav-link fab fa-etsy icon-large"
             href="https://www.etsy.com/shop/saytuss"
           />
         </li>
@@ -78,11 +78,11 @@ export default {
 }
 
 #etsyColor {
-    color: whitesmoke;
+    color: #ea1c2c;
 }
 
 #instaColor {
-    color: whitesmoke;
+    color: #ea1c2c;
 }
 
 .container-fluid {
@@ -108,7 +108,7 @@ img {
 
 #iconHover:hover {
     opacity: 0.5;
-    color: #891206;
+    color: whitesmoke ;
 }
 
 </style>

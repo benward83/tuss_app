@@ -33,9 +33,15 @@ h1 {
     /* background-color: #CCB19B; */
     /* background-color: antiquewhite; */
     background-color:#1F252A;
-    font-family: 'Baloo Paaji 2', cursive;
-}
+		font-family: 'Baloo Paaji 2', cursive;
+		color: #dedede;
+	}
 
+	body.Home {
+		background-position: 10%;
+		background-image: url('../assets/background.jpg');
+		background-size: 100%;
+}
 
 @media (max-width: 1200px) {
     #headingGroup h1 {
@@ -43,10 +49,6 @@ h1 {
         font-size: 3rems;
     }
 }
-
-
-
-
 
 section {
     margin: auto;

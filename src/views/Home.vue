@@ -1,7 +1,5 @@
 <template>
   <div
-    :style="cssProps"
-  
     class="container"
   >
     <div class="row flex">
@@ -30,28 +28,10 @@
 export default {
   components: {
   },
-  data() {
-    return {
-      cssProps: {
-        backgroundImage: `url(${require('@/assets/background.jpg')})`,
-      }
-    };
-  },
   methods: {
     goToGallery() {
       this.$router.push('Gallery');
-    } 
+    }, 
   },
 };
 </script>
-
-<style lang="scss">
-
-body {
-	color: #dedede;
-  font-family: 'Baloo Paaji 2', cursive;
-  // background-image: url('@/assets/background.jpg');
-  background-position: 10%;
-	background-size: 100%;
-}
-</style>
